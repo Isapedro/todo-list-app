@@ -7,7 +7,7 @@ export default function TodoList(){
 
   const addTodo= todo=>{
     if (!todo.text||/^\s*$/.test(todo.text)){
-      return;
+      return
     }
     const newTodos=[todo,...todos];
     setTodos(newTodos);
