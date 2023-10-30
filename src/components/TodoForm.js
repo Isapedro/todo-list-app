@@ -32,7 +32,7 @@ setInput("")
   ) : 
    (
     <>
-   <input type="text" placeholder="Add a to-do..." value={input} name="text" className="todo-input" onChange={handleChange} ref ={inputRef}/>
+   <input type="text" placeholder="Add a to-do..." value={input} name="text" className="todo-input" onChange={handleChange} ref ={inputRef} autoComplete="off"/>
     <button className="todo-button">Add To-Do!</button>
     </>
     )}
