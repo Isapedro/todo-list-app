@@ -5,12 +5,8 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body{
-  background: linear-gradient(
-     90deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
-  );
-}
+background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(233,2,98,0.8138424821002387) 61%);}
 
 .todo-app{
 
@@ -19,16 +15,19 @@ body{
   justify-content: start;
   width: 520px;
   min-height: 600px;
-  background: pink;
+  background: black;
+  opacity: 0.8;
   text-align: center;
   margin: 128px auto;
   border-radius: 10px;
   padding-bottom: 32px;
+  box-shadow: 5px 5px 5px;
 }
 h1{
   margin: 32px 0;
-  color: blueviolet;
+  color: #D45618;
   font-size: 35px;
+  
   
 }
 .complete{
@@ -46,11 +45,8 @@ h1{
   border: 2px solid blueviolet;
   
   width: 250px;
-  background:linear-gradient(
-    90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
-  );;
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   color: white;
 }
 
@@ -60,11 +56,8 @@ h1{
   border: 2px solid blueviolet;
   border-radius: 4px;
   cursor: pointer;
-  background: linear-gradient(
-    90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
-  );
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     color: #fff;
   text-transform: capitalize;
 
