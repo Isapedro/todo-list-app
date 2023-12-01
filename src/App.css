@@ -45,7 +45,7 @@ h1{
   border: 2px solid blueviolet;
   width: 250px;
   background: rgb(131,58,180);
-color:white;
+color:black;
 }
 
 
@@ -55,7 +55,7 @@ color:white;
   border-radius: 4px;
   cursor: pointer;
   background: rgb(131,58,180);
-    color: #fff;
+    color: black;
   text-transform: capitalize;
 
 }
@@ -80,7 +80,7 @@ color:white;
   justify-content: space-between;
   align-items: center;
   margin: 4px auto;
-  color: #fff;
+  color: black;
   background: linear-gradient(
     90deg,
     rgba(255, 118, 20, 1) 0%,
@@ -122,9 +122,9 @@ color:white;
 
 .delete-icon {
   margin-right: 5px;
-  color: #fff;
+  color: black;
 }
 
 .edit-icon {
-  color: #fff;
+  color: black;
 }
